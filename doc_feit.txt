@@ -1,0 +1,35 @@
+filtro - cidade | estado | apto. casa. | venda / aluga * (1)
+
+grid_mapa * informação depois do filtro (1)
+
+imoveis em destaque (ou por região, se não der pra listar todos imóveis de todos as regiões) *
+
+--captura pelo ip (região da pessoa) *  prioridade baixa
+
+* barra de busca flutuante * - ver se é possível *
+
+últimos adicionados * - setor
+
+tirar parte do blog  X *
+
+tirar parte da newsletter X *
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

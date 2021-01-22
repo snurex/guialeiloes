@@ -1,0 +1,26 @@
+#FFFCF2 - amarelinho fraco
+#CCC5B9 - cinza marrom
+#403D39 - cinza fosco
+#252422 - cinza escuro
+#EB5E28 - laranja
+
+HelveticaNowDisplay,Arial,sans-serif
+
+https://www.zukerman.com.br/apartamento-alto-da-mooca-sao-paulo-sp-20803-150775 * ver se é possível criar botão de street view e map view no detalhamento do imovel
+igual zuk..*
+
+mapa (filtro) listar dinamicamente, falar com mauricio. *
+
+http://empuxoweb.com.br/guialeiloes2/properties-half-map-3.html#
+
+remover (header preto) *
+remover (footer) * deixar só a rodape secundario.
+banner deixar no meio (cortar ) *
+fixar menu *
+
+
+15 POL. monitor - ajustar responsivo *
+1366 x 768 
+
+
+imóveis em destaque (por desconto). *

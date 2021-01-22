@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="guia leilões">
+    <meta name="author" content="">
+    <title>Guia Leilões</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900%7CMontserrat:600,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- LEAFLET MAP -->
+    <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/leaflet-gesture-handling.min.css">
+    <link rel="stylesheet" href="css/leaflet.markercluster.css">
+    <link rel="stylesheet" href="css/leaflet.markercluster.default.css">
+    <link rel="stylesheet" type="text/css" href="css/marker_popup.css">
+    <!-- Slider Revolution CSS Files -->
+    <link rel="stylesheet" href="revolution/css/settings.css">
+    <link rel="stylesheet" href="revolution/css/layers.css">
+    <link rel="stylesheet" href="revolution/css/navigation.css">
+    <!-- ARCHIVES CSS -->
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/lightcase.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/maps.css">
+    <link rel="stylesheet" type="text/css" href="css/colors/guia.css">
+    <!--<link rel="stylesheet" href="css/colors/yellow.css" /> -->
+</head>
+
+<body class="homepage-9">
+    <!-- Wrapper -->
+    <div id="wrapper">
+        <!-- START SECTION HEADINGS -->
+        <!-- Header Container
+        ================================================== -->
+        <header id="header-container">
+            <!-- Topbar -->
+            <!--<div class="header-top">
+                <div class="container">
+                    <div class="top-info hidden-sm-down">
+                        <div class="call-header">
+                            <p><i class="fa fa-phone" aria-hidden="true"></i> (19) 9999-9999</p>
+                        </div>
+                        <div class="address-header">
+                            <p><i class="fa fa-map-marker" aria-hidden="true"></i> Av. Sao Jose, 94</p>
+                        </div>
+                        <div class="mail-header">
+                            <p><i class="fa fa-envelope" aria-hidden="true"></i> contato@guialeiloes.com</p>
+                        </div>
+                    </div>
+                    <div class="top-social hidden-sm-down">
+                        <div class="login-wrap">
+                            <ul class="d-flex">
+                                <li><a href="login.html"><i class="fa fa-user"></i> Login</a></li>
+                                <li><a href="register.html"><i class="fa fa-sign-in"></i> Registrar</a></li>
+                            </ul>
+                        </div>
+                        <div class="social-icons-header">
+                            <div class="social-icons">
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn-dropdown dropdown-toggle" type="button" id="dropdownlang" data-toggle="dropdown" aria-haspopup="true">
+                                <img src="images/en.png" alt="lang" /> English
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownlang">
+                                <li><img src="images/fr.png" alt="lang" />France</li>
+                                <li><img src="images/de.png" alt="lang" /> German</li>
+                                <li><img src="images/it.png" alt="lang" />Italy</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+            <div class="clearfix"></div>
+            <!-- Topbar / End -->
+            <!-- Header -->
+            <div id="header">
+                <div class="container">
+                    <!-- Left Side Content -->
+                    <div class="left-side">
+                        <!-- Logo -->
+                        <div id="logo">
+                            <a href="#"><img src="images/logo.png" alt=""></a>
+                        </div>
+                        <!-- Mobile Navigation -->
+                        <div class="mmenu-trigger">
+                            <button class="hamburger hamburger--collapse" type="button">
+                                <span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </div>
+                        <!-- Main Navigation -->
+                        <nav id="navigation" class="style-1">
+                            <ul id="responsive">
+                                <li><a class="current" href="#">Home</a></li>
+                                    <li><a href="#imoveis_destaque">Imóveis em destaque</a></li>
+                                    <li><a href="#porque_imoveis_caixa">Porque imóveis Caixa</a></li>
+                                    <li><a href="#como_funciona">Como funciona</a></li>
+                                    <li><a href="#">Contato</a></li>
+                                    
+                            </ul>
+                        </nav>
+                        <div class="clearfix"></div>
+                        <!-- Main Navigation / End -->
+                    </div>
+                    <!-- Left Side Content / End -->
+
+                    <!-- Right Side Content / End -->
+                    <div class="right-side hidden-lg-down">
+                        <!-- Header Widget -->
+                        <!--<div class="header-widget">
+                            <a href="submit-property.html" class="button border">Indicar imóveis</a>
+                        </div>-->
+                        <!-- Header Widget / End -->
+                    </div>
+                    <!-- Right Side Content / End -->
+
+                </div>
+            </div>
+            <!-- Header / End -->
+
+        </header>
+        <div class="clearfix"></div>
+        <!-- Header Container / End -->
+
+        <!-- STAR HEADER GOOGLE MAP -->
+        <!--<div id="map-container" class="fullwidth-home-map header-map google-maps pull-top map-leaflet-wrapper">
+            <div id="map-leaflet"></div>-->
+
+            <section id="hero-area" class="parallax-searchs home15 overlay" data-stellar-background-ratio="0.5">
+                <div class="hero-main">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="hero-inner">
+                                    <!-- Welcome Text -->
+                                    <div class="welcome-text">
+                                        <h1 class="h1">Encontre aqui os imóveis mais baratos do Brasil
+                                        <br class="d-md-none">
+                                        <span class="typed border-bottom"></span>
+                                    </h1>
+                                        <p class="mt-4">A forma mais simples de achar o seu imóvel de leilão da Caixa</p>
+                                    </div>
+
+
+            <div id="hero-area" class="main-search-inner search-2">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+
+                            <!-- Search Form -->
+                            <div class="trip-search">
+                                <!--<form class="form">
+                                     Form Lookin for -->
+                                    <!--<div class="form-group looking">
+                                        <div class="first-select wide">
+                                            
+                                            <div class="main-search-input-item">
+                                                <input type="text" placeholder="O que você está procurando?" value="" />
+                                            </div>
+                                        </div>
+                                    </div>-->
+                                    <!--/ End Form Lookin for -->
+
+                                     <!-- Form Location -->
+                                     <div class="form-group location">
+                                        <div class="nice-select form-control wide" tabindex="0"><span class="current"><i class="fa fa-map-marker"></i>Estado</span>
+                                            <ul class="list">
+                                                <li data-value="1" class="option selected ">SP</li>
+                                                <li data-value="2" class="option">RJ</li>
+                                                <!--<li data-value="3" class="option">Minas Gerais</li>
+                                                <li data-value="3" class="option">Brasília</li>
+                                                <li data-value="3" class="option">Bahia</li>
+                                                <li data-value="3" class="option">Paraná</li>
+                                                <li data-value="3" class="option">Piauí</li>
+                                                <li data-value="3" class="option">Tocantis</li>-->
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--/ End Form Location -->
+
+                                    <div class="form-group categories">
+                                        <div class="nice-select form-control wide" tabindex="0"><span class="current"><i class="fas fa-home" aria-hidden="true"></i>Cidade</span>
+                                            <ul class="list">
+                                                <li data-value="1" class="option selected ">Americana</li>
+                                                <li data-value="2" class="option">Valinhos</li>
+                                                <li data-value="3" class="option">Sumaré</li>
+                                                <li data-value="3" class="option">Campinas</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                
+                                    <!-- Form Categories -->
+                                    <div class="form-group categories">
+                                        <div class="nice-select form-control wide" tabindex="0"><span class="current"><i class="fa fa-list" aria-hidden="true"></i>Tipo</span>
+                                            <ul class="list">
+                                                <li data-value="1" class="option selected ">Apartamento</li>
+                                                <li data-value="2" class="option">Casa</li>
+                                                <li data-value="3" class="option">Terreno</li>
+                                                <li data-value="3" class="option">Comercial</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--/ End Form Categories -->
+                                    <!-- Form Button -->
+                                    <div class="form-group button">
+                                        <a href="http://empuxoweb.com.br/guialeiloes2/properties-half-map-3.html#"><button type="submit" class="btn">Pesquisar</button></a>
+                                    </div>
+                                    <!--/ End Form Button -->
+                                </form>
+                            </div>
+                            <!--/ End Search Form -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div></div></section>
+        <!-- END HEADER GOOGLE MAP -->
+
+        <!-- START SECTION FEATURED PROPERTIES -->
+        <a name="imoveis_destaque"></a>
+        <section class="featured portfolio bg-white">
+            <div class="container">
+                <div class="sec-title">
+                    <h2><span>Imóveis </span>em destaque</h2>
+                    <!--<p>Oferecemos serviço completo em cada etapa.</p>-->
+                </div>
+                <div class="row portfolio-items">
+                    <div class="item col-lg-4 col-md-6 col-xs-12 landscapes sale">
+                        <div class="project-single">
+                            <div class="project-inner project-head">
+                                <div class="homes">
+                                    <!-- homes img -->
+                                    <a href="single-property-1.html" class="homes-img">
+                                        <div class="homes-tag button alt featured">Desocupado</div>
+                                        <div class="homes-tag button alt sale">Venda</div>
+                                        <!--<div class="homes-price">R$520,000</div>-->
+                                        <!--<img src="images/blog/b-11.jpg" alt="home-1" class="img-responsive">-->
+                                    </a>
+                                </div>
+                                <!--<div class="button-effect">
+                                    <a href="single-property-1.html" class="btn"><i class="fa fa-link"></i></a>
+                                    <a href="https://www.youtube.com/watch?v=14semTlwyUY" class="btn popup-video popup-youtube"><i class="fas fa-video"></i></a>
+                                    <a href="single-property-2.html" class="img-poppu btn"><i class="fa fa-photo"></i></a>
+                                </div>-->
+                            </div>
+                            <!-- homes content -->
+                            <div class="homes-content">
+                                <!-- homes address -->
+                                <h4 style="float:right;">49%</h4>
+                                <h3><del>R$ 120,000   </del><a href="single-property-1.html" style="font-size:25px;">R$ 120,000</a></h3>
+                                <p class="homes-address mb-3">
+                                    <a href="single-property-1.html">
+                                        <i class="fa fa-map-marker"></i><span>Avenida Ipê Roxo, 1070, CEP 13175-658</span>
+                                    </a>
+                                </p>
+                                <!-- homes List -->
+                                <ul class="homes-list clearfix">
+                                    <li>
+                                        <span>4 Quartos</span>
+                                    </li>
+                                    <li>
+                                        <span>3 Banheiros</span>
+                                    </li>
+                                    <li>
+                                        <span>Área Total 350 m²</span>
+                                    </li>
+                                    <li>
+                                        <span>1 Garagem</span>
+                                    </li>
+                                </ul>
+                                <div class="footer">
+                                    
+                                        <i class="fas fa-gavel"></i> <a href="#"> Visitar imóvel </a>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item col-lg-4 col-md-6 col-xs-12 people rent">
+                        <div class="project-single">
+                            <div class="project-inner project-head">
+                                <div class="homes">
+                                    <!-- homes img -->
+                                    <a href="single-property-1.html" class="homes-img">
+                                        <div class="homes-tag button alt featured">Desocupado</div>
+                                        <div class="homes-tag button alt sale">Venda</div>
+                                       <!-- <div class="homes-price">R$ 520,000</div> -->
+                                        <!--<img src="images/blog/b-12.jpg" alt="home-1" class="img-responsive"> -->
+                                    </a>
+                                </div>
+                                <!--<div class="button-effect">
+                                    <a href="single-property-1.html" class="btn"><i class="fa fa-link"></i></a>
+                                    <a href="https://www.youtube.com/watch?v=14semTlwyUY" class="btn popup-video popup-youtube"><i class="fas fa-video"></i></a>
+                                    <a href="single-property-2.html" class="img-poppu btn"><i class="fa fa-photo"></i></a>
+                                </div>-->
+                            </div>
+                            <!-- homes content -->
+                            <div class="homes-content">
+                                <!-- homes address -->
+                                <h4 style="float:right;">49%</h4>
+                                <h3><del>R$ 120,000   </del><a href="single-property-1.html" style="font-size:25px;">R$ 120,000</a></h3>
+                                <p class="homes-address mb-3">
+                                    <a href="single-property-1.html">
+                                        <i class="fa fa-map-marker"></i><span>Avenida Ipê Roxo, 1070, CEP 13175-658</span>
+                                    </a>
+                                </p>
+                                <!-- homes List -->
+                                <ul class="homes-list clearfix">
+                                    <li>
+                                        <span>4 Quartos</span>
+                                    </li>
+                                    <li>
+                                        <span>3 Banheiros</span>
+                                    </li>
+                                    <li>
+                                        <span>Área Total 350 m²</span>
+                                    </li>
+                                    <li>
+                                        <span>1 Garagem</span>
+                                    </li>
+                                </ul>
+                                <div class="footer">
+                                    <i class="fas fa-gavel"></i> <a href="#"> Visitar imóvel </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item col-lg-4 col-md-6 col-xs-12 people landscapes sale">
+                        <div class="project-single">
+                            <div class="project-inner project-head">
+                                <div class="homes">
+                                    <!-- homes img -->
+                                    <a href="single-property-1.html" class="homes-img">
+                                        <!--<div class="homes-tag button alt sale">For Sale</div>-->
+
+                                        <div class="homes-tag button alt featured">Desocupado</div>
+                                        <div class="homes-tag button alt sale">Venda</div>
+                                       <!-- <div class="homes-price">R$ 520,000</div> -->
+                                        <!--<img src="images/blog/b-1.jpg" alt="home-1" class="img-responsive"> -->
+                                    </a>
+                                </div>
+                                <!--<div class="button-effect">
+                                    <a href="single-property-1.html" class="btn"><i class="fa fa-link"></i></a>
+                                    <a href="https://www.youtube.com/watch?v=14semTlwyUY" class="btn popup-video popup-youtube"><i class="fas fa-video"></i></a>
+                                    <a href="single-property-2.html" class="img-poppu btn"><i class="fa fa-photo"></i></a>
+                                </div>-->
+                            </div>
+                            <!-- homes content -->
+                            <div class="homes-content">
+                                <!-- homes address -->
+                                <h4 style="float:right;">49%</h4>
+                                <h3><del>R$ 120,000   </del><a href="single-property-1.html" style="font-size:25px;">R$ 120,000</a></h3>
+                                <p class="homes-address mb-3">
+                                    <a href="single-property-1.html">
+                                        <i class="fa fa-map-marker"></i><span>Avenida Ipê Roxo, 1070, CEP 13175-658
+                                        </span>
+                                    </a>
+                                </p>
+                                <!-- homes List -->
+                                <ul class="homes-list clearfix">
+                                    <li>
+                                        <span>4 Quartos</span>
+                                    </li>
+                                    <li>
+                                        <span>3 Banheiros</span>
+                                    </li>
+                                    <li>
+                                        <span>Área Total 350 m²</span>
+                                    </li>
+                                    <li>
+                                        <span>1 Garagem</span>
+                                    </li>
+                                </ul>
+                                <div class="footer">
+                                    <i class="fas fa-gavel"></i> <a href="#"> Visitar imóvel </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item col-lg-4 col-md-6 col-xs-12 people landscapes rent no-pb">
+                        <div class="project-single no-mb">
+                            <div class="project-inner project-head">
+                                <div class="homes">
+                                    <!-- homes img -->
+                                    <a href="single-property-1.html" class="homes-img">
+                                        <div class="homes-tag button alt featured">Desocupado</div>
+                                        <div class="homes-tag button alt sale">Venda</div>
+                                        <!-- <div class="homes-price">R$ 520,000</div> -->
+                                       <!-- <img src="images/feature-properties/fp-10.jpg" alt="home-1" class="img-responsive"> -->
+                                    </a>
+                                </div>
+                                <!--<div class="button-effect">
+                                    <a href="single-property-1.html" class="btn"><i class="fa fa-link"></i></a>
+                                    <a href="https://www.youtube.com/watch?v=14semTlwyUY" class="btn popup-video popup-youtube"><i class="fas fa-video"></i></a>
+                                    <a href="single-property-2.html" class="img-poppu btn"><i class="fa fa-photo"></i></a>
+                                </div>-->
+                            </div>
+                            <!-- homes content -->
+                            <div class="homes-content">
+                                <!-- homes address -->
+                                <h4 style="float:right;">49%</h4>
+                                <h3><del>R$ 120,000   </del><a href="single-property-1.html" style="font-size:25px;">R$ 120,000</a></h3>
+                                <p class="homes-address mb-3">
+                                    <a href="properties-details.html">
+                                        <i class="fa fa-map-marker"></i><span>Avenida Ipê Roxo, 1070, CEP 13175-658</span>
+                                    </a>
+                                </p>
+                                <!-- homes List -->
+                                <ul class="homes-list clearfix">
+                                    <li>
+                                        <span>4 Quartos</span>
+                                    </li>
+                                    <li>
+                                        <span>3 Banheiros</span>
+                                    </li>
+                                    <li>
+                                        <span>Área Total 350 m²</span>
+                                    </li>
+                                    <li>
+                                        <span>1 Garagem</span>
+                                    </li>
+                                </ul>
+                                <div class="footer">
+                                    <i class="fas fa-gavel"></i> <a href="#"> Visitar imóvel </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item col-lg-4 col-md-6 col-xs-12 people sale no-pb">
+                        <div class="project-single no-mb">
+                            <div class="project-inner project-head">
+                                <div class="homes">
+                                    <!-- homes img -->
+                                    <a href="single-property-1.html" class="homes-img">
+                                        <div class="homes-tag button alt featured">Desocupado</div>
+                                        <div class="homes-tag button alt sale">Venda</div>
+                                        <!--<img src="images/feature-properties/fp-11.jpg" alt="home-1" class="img-responsive">-->
+                                    </a>
+                                </div>
+                               <!-- <div class="button-effect">
+                                    <a href="single-property-1.html" class="btn"><i class="fa fa-link"></i></a>
+                                    <a href="https://www.youtube.com/watch?v=14semTlwyUY" class="btn popup-video popup-youtube"><i class="fas fa-video"></i></a>
+                                    <a href="single-property-2.html" class="img-poppu btn"><i class="fa fa-photo"></i></a>
+                                </div>-->
+                            </div>
+                            <!-- homes content -->
+                            <div class="homes-content">
+                                <!-- homes address -->
+                                <h4 style="float:right;">49%</h4>
+                                <h3><del>R$ 120,000   </del><a href="single-property-1.html" style="font-size:25px;">R$ 120,000</a></h3>
+                                <p class="homes-address mb-3">
+                                    <a href="single-property-1.html">
+                                        <i class="fa fa-map-marker"></i><span>Avenida Ipê Roxo, 1070, CEP 13175-658</span>
+                                    </a>
+                                </p>
+                                <!-- homes List -->
+                                <ul class="homes-list clearfix">
+                                    <li>
+                                        <span>4 Quartos</span>
+                                    </li>
+                                    <li>
+                                        <span>3 Banheiros</span>
+                                    </li>
+                                    <li>
+                                        <span>Área Total 350 m²</span>
+                                    </li>
+                                    <li>
+                                        <span>1 Garagem</span>
+                                    </li>
+                                </ul>
+                                <div class="footer">
+                                    <i class="fas fa-gavel"></i> <a href="#"> Visitar imóvel </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item col-lg-4 col-md-6 it2 col-xs-12 web rent no-pb">
+                        <div class="project-single no-mb last">
+                            <div class="project-inner project-head">
+                                <div class="homes">
+                                    <!-- homes img -->
+                                    <a href="single-property-1.html" class="homes-img">
+                                        <div class="homes-tag button alt featured">Desocupado</div>
+                                        <div class="homes-tag button alt sale">Venda</div>
+                                       <!-- <img src="images/feature-properties/fp-12.jpg" alt="home-1" class="img-responsive"> -->
+                                    </a>
+                                </div>
+                                <!--<div class="button-effect">
+                                    <a href="single-property-1.html" class="btn"><i class="fa fa-link"></i></a>
+                                    <a href="https://www.youtube.com/watch?v=14semTlwyUY" class="btn popup-video popup-youtube"><i class="fas fa-video"></i></a>
+                                    <a href="single-property-2.html" class="img-poppu btn"><i class="fa fa-photo"></i></a>
+                                </div>-->
+                            </div>
+                            <!-- homes content -->
+                            <div class="homes-content">
+                                <!-- homes address -->
+                                <h4 style="float:right;">49%</h4>
+                                <h3><del>R$ 120,000   </del><a href="single-property-1.html" style="font-size:25px;">R$ 120,000</a></h3>
+                                <p class="homes-address mb-3">
+                                    <a href="single-property-1.html">
+                                        <i class="fa fa-map-marker"></i><span>Avenida Ipê Roxo, 1070, CEP 13175-658</span>
+                                    </a>
+                                </p>
+                                <!-- homes List -->
+                                <ul class="homes-list clearfix">
+                                    <li>
+                                        <span>4 Quartos</span>
+                                    </li>
+                                    <li>
+                                        <span>3 Banheiros</span>
+                                    </li>
+                                    <li>
+                                        <span>Área Total 350 m²</span>
+                                    </li>
+                                    <li>
+                                        <span>1 Garagem</span>
+                                    </li>
+                                </ul>
+                                <div class="footer">
+                                    <i class="fas fa-gavel"></i> <a href="#"> Visitar imóvel </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-all">
+                    <a href="properties-full-grid.html" class="btn btn-outline-light">Ver Todos</a>
+                </div>
+            </div>
+        </section>
+        <!-- END SECTION FEATURED PROPERTIES -->
+
+        <!-- START SECTION WHY CHOOSE US -->
+        <a name="porque_imoveis_caixa"></a>
+        <section class="how-it-works bg-white-2">
+            <div class="container">
+               <div class="sec-title">
+                    <h2><span>Porque </span>imóveis Caixa</h2>
+                   <!-- <p>Oferecemos serviço completo em cada etapa.</p> -->
+                </div>
+                <div class="row service-1">
+                    <article class="col-lg-5 col-md-6 col-xs-12 serv">
+                        <div class="serv-flex">
+                            <div class="art-1 img-13">
+                                <i class="fas fa-home" style="font-size: 4rem;"></i>
+                                <h3>Até 70% de desconto</h3>
+                            </div>
+                            <div class="service-text-p">
+                                <p class="text-center" style="margin-bottom:20px;">Excelentes oportunidades de compra de imóveis para uso próprio ou investimento.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-lg-5 col-md-6 col-xs-12 serv">
+                        <div class="serv-flex">
+                            <div class="art-1 img-14">
+                                <i class="fas fa-clipboard-check" style="font-size: 4rem;"></i>
+                                <h3>Possibilidade de financiar até 95% do valor do imóvel</h3>
+                            </div>
+                            <div class="service-text-p">
+                                <p class="text-center" style="margin-right:10px; margin-left:10px;">Os únicos imóveis no Brasil que permitem uma entrada de 5% financiados pela própria Caixa.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-lg-5 col-md-6 col-xs-12 serv mb-0 pt">
+                        <div class="serv-flex arrow">
+                            <div class="art-1 img-15">
+                                <i class="fas fa-check" style="font-size: 4rem;"></i>
+                                <h3>ZERO dívidas</h3>
+                            </div>
+                            <div class="service-text-p">
+                                <p class="text-center" style="margin-bottom:27px; margin-left:10px; margin-right:10px;">Os imóveis da Caixa sãovendidos totalmente livres de dívidas anteriores como IPTU  e condomínio.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col-lg-5 col-md-6 col-xs-12 serv">
+                        <div class="serv-flex">
+                            <div class="art-1 img-13">
+                                <i class="fas fa-handshake" style="font-size: 4rem;"></i>
+                                <h3>Assessoria e corretagem com custo ZERO</h3>
+                            </div>
+                            <div class="service-text-p">
+                                <p class="text-center" style="margin-left:10px; margin-right:10px;">Todo processo é acompanhando por correspondentes e corretores homologados pela Caixa sem qualquer despesa ao comprador.</p>
+                            </div>
+                        </div>
+
+                </div>
+
+                </section>
+
+
+                <!-- START SECTION WHY CHOOSE US -->
+                <a name="como_funciona"></a>
+        <section class="how-it-works bg-white-2">
+            <div class="container">
+               <div class="sec-title">
+                    <h2><span>Como </span>funciona</h2>
+                   <!-- <p>Oferecemos serviço completo em cada etapa.</p> -->
+                </div>
+
+                <div class="row service-1">
+
+                <article class="col-lg-4 col-md-6 col-xs-12 serv">
+                    <div class="serv-flex">
+                        <span style="position: absolute; top:5px; color:#fff; z-index:999; font-size:30px; margin: -10px 10px 0px -10px; ">1</span>
+                        <div class="art-1 img-14">
+                            <i class="fas fa-circle" style="font-size: 4rem; position: absolute; top: -10px;" ></i>
+                            <!--<h3>Conte Conosco</h3>-->
+                        </div>
+                        <div class="service-text-p">
+                            <p class="text-center">Imóvel adquirido através de financiamento imobiliário baseado na lei 9.514.</p>
+                        </div>
+                    </div>
+                </article>
+
+                    <article class="col-lg-4 col-md-6 col-xs-12 serv">
+                        <div class="serv-flex">
+                            <span style="position: absolute; top:5px; color:#fff; z-index:999; font-size:30px; margin: -10px 10px 0px -10px; ">2</span>
+                            <div class="art-1 img-14">
+                                <i class="fas fa-circle" style="font-size: 4rem; position: absolute; top: -10px;"></i>
+                                <!--<h3>Conte Conosco</h3>-->
+                            </div>
+                            <div class="service-text-p">
+                                <p class="text-center">Proprietário não honra com as parcelas definidas em contrato.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col-lg-4 col-md-6 col-xs-12 serv mb-0 pt">
+                        <div class="serv-flex arrow">
+                            <span style="position: absolute; top:5px; color:#fff; z-index:999; font-size:30px; margin: -10px 10px 0px -10px; ">3</span>
+                            <div class="art-1 img-15">
+                                <i class="fas fa-circle" style="font-size: 4rem; position: absolute; top: -10px;"></i>
+                                <!--<h3>Conte Conosco</h3>-->
+                            </div>
+                            <div class="service-text-p">
+                                <p class="text-center">A Caixa retoma este imóvel como forma de garantia da dívida.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col-lg-4 col-md-6 col-xs-12 serv mb-0 pt">
+                        <div class="serv-flex arrow">
+                            <span style="position: absolute; top:5px; color:#fff; z-index:999; font-size:30px; margin: -10px 10px 0px -10px; ">4</span>
+                            <div class="art-1 img-15">
+                                <i class="fas fa-circle" style="font-size: 4rem; position: absolute; top: -10px;"></i>
+                                <!--<h3>Conte Conosco</h3>-->
+                            </div>
+                            <div class="service-text-p">
+                                <p class="text-center">Conforme a lei 9.514, os imóveis retomados são levados a leilão.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col-lg-4 col-md-6 col-xs-12 serv mb-0 pt">
+                        <div class="serv-flex arrow">
+                            <span style="position: absolute; top:5px; color:#fff; z-index:999; font-size:30px; margin: -10px 10px 0px -10px; ">5</span>
+                            <div class="art-1 img-15">
+                                <i class="fas fa-circle" style="font-size: 4rem; position: absolute; top: -10px;"></i>
+                                <!--<h3>Conte Conosco</h3>-->
+                            </div>
+                            <div class="service-text-p">
+                                <p class="text-center">Os imóveis passam pelo primeiro e segundo leilão através de leiloeiros oficiais.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col-lg-4 col-md-6 col-xs-12 serv mb-0 pt">
+                        <div class="serv-flex arrow">
+                            <span style="position: absolute; top:5px; color:#fff; z-index:999; font-size:30px; margin: -10px 10px 0px -10px; ">6</span>
+                            <div class="art-1 img-15">
+                                <i class="fas fa-circle" style="font-size: 4rem; position: absolute; top: -10px;"></i>
+                                <!--<h3>Conte Conosco</h3>-->
+                            </div>
+                            <div class="service-text-p">
+                                <p class="text-center">Se não arrematados, eles passam a ser vendidos diretamente pela Caixa sem qualquer ônus.</p>
+                            </div>
+                        </div>
+                    </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- END SECTION WHY CHOOSE US -->
+
+        <!-- SECTION FEATURED PROPERTIES -->
+
+        <!-- END FEATURED PROPERTIES -->
+
+        <!-- START SECTION POPULAR PLACES -->
+
+        
+
+        <!-- END SECTION POPULAR PLACES-->
+
+        <!-- END SECTION RECENTLY PROPERTIES -->
+
+        <!-- START SECTION BLOG -->
+        
+        <!-- END SECTION BLOG -->
+        
+        <!-- STAR SECTION PARTNERS -->
+       
+        <!-- END SECTION PARTNERS -->
+
+        <!-- START FOOTER -->
+        <footer class="first-footer">
+            <div class="top-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="netabout">
+                                <a href="#" class="logo">
+                                    <img src="images/logo.png" alt="guia leilões">
+                                </a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum incidunt architecto soluta laboriosam, perspiciatis, aspernatur officiis esse.</p>
+                            </div>
+                            <div class="contactus">
+                                <ul>
+                                    <li>
+                                        <div class="info">
+                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                            <p class="in-p">R Joao Erbolato, 94, Campinas / SP</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="info">
+                                            <i class="fa fa-phone" aria-hidden="true"></i>
+                                            <p class="in-p">+55 19 6978-4871</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="info">
+                                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                                            <p class="in-p ti">contato@guialeiloes.com.br</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="navigation">
+                                <h3>Navegação</h3>
+                                <div class="nav-footer">
+                                    <ul>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">Imóveis em destaque</a></li>
+                                        <li><a href="#">Porque imóveis Caixa</a></li>
+                                        <li><a href="#">Como funciona</a></li>
+                                        <li class="no-mgb"><a href="#">Contato</a></li>    
+                                    </ul>
+                                    <ul class="nav-right">
+                                        
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="newsletters">
+                                <h3>Termos de uso</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Quisque efficitur nunc sed pharetra tristique. Praesent ligula odio, condimentum eu orci sed, porttitor aliquet ante.
+                                    Cras rhoncus ipsum a mi hendrerit, sodales vulputate urna scelerisque.
+                                    
+                                </p>
+                            </div>
+                            <!--<form class="bloq-email mailchimp form-inline" method="post">
+                                <label for="subscribeEmail" class="error"></label>
+                                <div class="email">
+                                    <input type="email" id="subscribeEmail" name="EMAIL" placeholder="Enter Your Email">
+                                    <input type="submit" value="Subscribe">
+                                    <p class="subscription-success"></p>
+                                </div>
+                            </form>-->
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="newsletters">
+                                <h3>Fale Conosco</h3>
+                                <p>Aliquam nisi erat, porta quis rhoncus et, maximus ultrices mi.
+                                    Vivamus consequat, neque ac dignissim consectetur, nisl arcu suscipit neque, at dignissim sem diam non orci.
+                                </p>
+                            </div>
+                            <!--<form class="bloq-email mailchimp form-inline" method="post">
+                                <label for="subscribeEmail" class="error"></label>
+                                <div class="email">
+                                    <input type="email" id="subscribeEmail" name="EMAIL" placeholder="Enter Your Email">
+                                    <input type="submit" value="Subscribe">
+                                    <p class="subscription-success"></p>
+                                </div>
+                            </form>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="second-footer">
+                <div class="container">
+                    <p>2020 © Guia Leilões - Todos os direitos reservados.</p>
+                    <p>CNPJ <i class="fa fa-building" style="color: #EB5E28;" aria-hidden="true"></i> 38.465.978/0001-10 </p>
+                </div>
+            </div>
+        </footer>
+
+        <a data-scroll href="#wrapper" class="go-up"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
+        <!-- END FOOTER -->
+
+        <!-- START PRELOADER -->
+        <div id="preloader">
+            <div id="status">
+                <div class="status-mes"></div>
+            </div>
+        </div>
+        <!-- END PRELOADER -->
+
+        <!-- ARCHIVES JS -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/tether.min.js"></script>
+        <script src="js/moment.js"></script>
+        <script src="js/transition.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/mmenu.min.js"></script>
+        <script src="js/mmenu.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/fitvids.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/smooth-scroll.min.js"></script>
+        <script src="js/lightcase.js"></script>
+        <script src="js/search.js"></script>
+        <script src="js/owl.carousel.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/ajaxchimp.min.js"></script>
+        <script src="js/newsletter.js"></script>
+        <script src="js/jquery.form.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/searched.js"></script>
+        <script src="js/forms-2.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/leaflet-gesture-handling.min.js"></script>
+        <script src="js/leaflet-providers.js"></script>
+        <script src="js/leaflet.markercluster.js"></script>
+        <script src="js/map-style4.js"></script>
+        <script src="js/color-switcher.js"></script>
+
+        <!-- Slider Revolution scripts -->
+        <script src="revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+        <script src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+        <script src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+        <script src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+        <script src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+        <script src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+        <script src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+        <script>
+            $('.slick-lancers').slick({
+                infinite: false,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                dots: true,
+                arrows: false,
+                adaptiveHeight: true,
+                responsive: [{
+                    breakpoint: 1292,
+                    settings: {
+                        dots: true,
+                        arrows: false
+                    }
+                }, {
+                    breakpoint: 993,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        dots: true,
+                        arrows: false
+                    }
+                }, {
+                    breakpoint: 769,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        dots: true,
+                        arrows: false
+                    }
+                }]
+            });
+
+        </script>
+
+        <!-- MAIN JS -->
+        <script src="js/script.js"></script>
+
+    </div>
+    <!-- Wrapper / End -->
+</body>
+
+</html>
